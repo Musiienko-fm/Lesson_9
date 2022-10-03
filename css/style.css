@@ -1,0 +1,42 @@
+
+@font-face{
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+.header{
+	background-color: #000;
+	margin-bottom: 100px;
+}
+.header__description,
+.footer__description{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 20px;
+}
+body{
+	background-color: #555;
+}
+[class*="__container"]{
+	max-width: 898px;
+	margin: 0 auto;
+}
+img,
+source {
+	max-width: 100%;
+}
+.image__container{
+	margin-bottom: 100px;
+}
+.image__container .homepage{
+	margin-bottom: 150px;
+}
+.footer{
+	background-color: #000;
+} 
+
